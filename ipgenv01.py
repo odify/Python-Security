@@ -5,10 +5,6 @@ import sys
 ## 192.168.1.1 --2- 192.168.2.255
 
 
-
-
-
-
 def help():
     print usage
 

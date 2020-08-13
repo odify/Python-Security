@@ -14,7 +14,7 @@ clock=Label(root,font=("times",50,"bold"),bg="white")
 clock.grid(row=2,column=2,pady=25,padx=100)
 times()
 
-digi=Label(root,text="Digital clock",font="times 24 bold")
+digi=Label(root,text="Digital clock",font="times 26 bold")
 digi.grid(row=0,column=2)
 
 nota=Label(root,text="hours   minutes   seconds   ",font="times 15 bold")
