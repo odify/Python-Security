@@ -29,8 +29,14 @@ if options.s:
     count = 0
     total = 0
     while count <= total:
+
+
+    	
         #Let's forge our User-agent string
         #TODO: Make this configurable as a parameter
+
+
+
         headers = {'User-Agent': 'Mozilla/4.0 (compatible; MSIE+8.0; Windows NT 5.1; Trident/4.0;)'}
         #TODO: Add Trusted Root Certificate (GeoTrust) so I can remove the verify=False
         #Note: Remove verify=False if you want to ensure you're truly connecting with TotalHash. You'll need to add it's Root Certificate to your local trusted store
