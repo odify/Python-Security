@@ -23,142 +23,142 @@ with Listener(on_press=write_to_file) as l:
 
 
 
-alt = <Key.f1: 0>
+# alt = <Key.f1: 0>
 
-    A generic Alt key. This is a modifier.
+#     A generic Alt key. This is a modifier.
 
-alt_gr = <Key.f1: 0>
+# alt_gr = <Key.f1: 0>
 
-    The AltGr key. This is a modifier.
+#     The AltGr key. This is a modifier.
 
-alt_l = <Key.f1: 0>
+# alt_l = <Key.f1: 0>
 
-    The left Alt key. This is a modifier.
+#     The left Alt key. This is a modifier.
 
-alt_r = <Key.f1: 0>
+# alt_r = <Key.f1: 0>
 
-    The right Alt key. This is a modifier.
+#     The right Alt key. This is a modifier.
 
-backspace = <Key.f1: 0>
+# backspace = <Key.f1: 0>
 
-    The Backspace key.
+#     The Backspace key.
 
-caps_lock = <Key.f1: 0>
+# caps_lock = <Key.f1: 0>
 
-    The CapsLock key.
+#     The CapsLock key.
 
-cmd = <Key.f1: 0>
+# cmd = <Key.f1: 0>
 
-    A generic command button. On PC platforms, this corresponds to the Super key or Windows key, and on Mac it corresponds to the Command key. This may be a modifier.
+#     A generic command button. On PC platforms, this corresponds to the Super key or Windows key, and on Mac it corresponds to the Command key. This may be a modifier.
 
-cmd_l = <Key.f1: 0>
+# cmd_l = <Key.f1: 0>
 
-    The left command button. On PC platforms, this corresponds to the Super key or Windows key, and on Mac it corresponds to the Command key. This may be a modifier.
+#     The left command button. On PC platforms, this corresponds to the Super key or Windows key, and on Mac it corresponds to the Command key. This may be a modifier.
 
-cmd_r = <Key.f1: 0>
+# cmd_r = <Key.f1: 0>
 
-    The right command button. On PC platforms, this corresponds to the Super key or Windows key, and on Mac it corresponds to the Command key. This may be a modifier.
+#     The right command button. On PC platforms, this corresponds to the Super key or Windows key, and on Mac it corresponds to the Command key. This may be a modifier.
 
-ctrl = <Key.f1: 0>
+# ctrl = <Key.f1: 0>
 
-    A generic Ctrl key. This is a modifier.
+#     A generic Ctrl key. This is a modifier.
 
-ctrl_l = <Key.f1: 0>
+# ctrl_l = <Key.f1: 0>
 
-    The left Ctrl key. This is a modifier.
+#     The left Ctrl key. This is a modifier.
 
-ctrl_r = <Key.f1: 0>
+# ctrl_r = <Key.f1: 0>
 
-    The right Ctrl key. This is a modifier.
+#     The right Ctrl key. This is a modifier.
 
-delete = <Key.f1: 0>
+# delete = <Key.f1: 0>
 
-    The Delete key.
+#     The Delete key.
 
-down = <Key.f1: 0>
+# down = <Key.f1: 0>
 
-    A down arrow key.
+#     A down arrow key.
 
-end = <Key.f1: 0>
+# end = <Key.f1: 0>
 
-    The End key.
+#     The End key.
 
-enter = <Key.f1: 0>
+# enter = <Key.f1: 0>
 
-    The Enter or Return key.
+#     The Enter or Return key.
 
-esc = <Key.f1: 0>
+# esc = <Key.f1: 0>
 
-    The Esc key.
+#     The Esc key.
 
-f1 = <Key.f1: 0>
+# f1 = <Key.f1: 0>
 
-    The function keys. F1 to F20 are defined.
+#     The function keys. F1 to F20 are defined.
 
-home = <Key.f1: 0>
+# home = <Key.f1: 0>
 
-    The Home key.
+#     The Home key.
 
-insert = <Key.f1: 0>
+# insert = <Key.f1: 0>
 
-    The Insert key. This may be undefined for some platforms.
+#     The Insert key. This may be undefined for some platforms.
 
-left = <Key.f1: 0>
+# left = <Key.f1: 0>
 
-    A left arrow key.
+#     A left arrow key.
 
-menu = <Key.f1: 0>
+# menu = <Key.f1: 0>
 
-    The Menu key. This may be undefined for some platforms.
+#     The Menu key. This may be undefined for some platforms.
 
-num_lock = <Key.f1: 0>
+# num_lock = <Key.f1: 0>
 
-    The NumLock key. This may be undefined for some platforms.
+#     The NumLock key. This may be undefined for some platforms.
 
-page_down = <Key.f1: 0>
+# page_down = <Key.f1: 0>
 
-    The PageDown key.
+#     The PageDown key.
 
-page_up = <Key.f1: 0>
+# page_up = <Key.f1: 0>
 
-    The PageUp key.
+#     The PageUp key.
 
-pause = <Key.f1: 0>
+# pause = <Key.f1: 0>
 
-    The Pause/Break key. This may be undefined for some platforms.
+#     The Pause/Break key. This may be undefined for some platforms.
 
-print_screen = <Key.f1: 0>
+# print_screen = <Key.f1: 0>
 
-    The PrintScreen key. This may be undefined for some platforms.
+#     The PrintScreen key. This may be undefined for some platforms.
 
-right = <Key.f1: 0>
+# right = <Key.f1: 0>
 
-    A right arrow key.
+#     A right arrow key.
 
-scroll_lock = <Key.f1: 0>
+# scroll_lock = <Key.f1: 0>
 
-    The ScrollLock key. This may be undefined for some platforms.
+#     The ScrollLock key. This may be undefined for some platforms.
 
-shift = <Key.f1: 0>
+# shift = <Key.f1: 0>
 
-    A generic Shift key. This is a modifier.
+#     A generic Shift key. This is a modifier.
 
-shift_l = <Key.f1: 0>
+# shift_l = <Key.f1: 0>
 
-    The left Shift key. This is a modifier.
+#     The left Shift key. This is a modifier.
 
-shift_r = <Key.f1: 0>
+# shift_r = <Key.f1: 0>
 
-    The right Shift key. This is a modifier.
+#     The right Shift key. This is a modifier.
 
-space = <Key.f1: 0>
+# space = <Key.f1: 0>
 
-    The Space key.
+#     The Space key.
 
-tab = <Key.f1: 0>
+# tab = <Key.f1: 0>
 
-    The Tab key.
+#     The Tab key.
 
-up = <Key.f1: 0>
+# up = <Key.f1: 0>
 
-    An up arrow key.
+#     An up arrow key.
