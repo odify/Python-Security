@@ -26,6 +26,3 @@ time.sleep(2)
 
 os.system("sudo apt-get autoremove")
 
-
-#????
-
