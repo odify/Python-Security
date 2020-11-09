@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
+
 import webbrowser
 from tkinter import *
 
 root = Tk()
 root.title("WebBrowser")
-root.geometry("400x300")
+root.geometry("300x200")
 
 
 def copyassignment():
