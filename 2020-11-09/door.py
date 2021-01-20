@@ -1,24 +1,16 @@
-#!/usr/bin/env python3
+# #!/usr/bin/env python3
 
 
-import webbrowser
-from tkinter import *
-
-root = Tk()
-root.title("WebBrowser")
-root.geometry("300x200")
+# import webbrowser
+# import tkinter
+# import * tk = tkinter.Tk() 
 
 
-def copyassignment():
-    webbrowser.open("www.github.com/odify")
+
+# root = Tk()
+# root.title("WebBrowser")
+# root.geometry("300x200")
 
 
-def google():
-    webbrowser.open("www.google.com")
-
-
-copyassignment = Button(root, text="My Github projects", command=copyassignment).pack(pady=20)
-
-mygoogle = Button(root, text="open Google", command=google).pack(pady=20)
-root.mainloop()
-
+# def google():
+#     webbrowser.open("www.google.com")
