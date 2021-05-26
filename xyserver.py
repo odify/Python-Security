@@ -1,5 +1,4 @@
-
-##!/usr/bin/env python3
+#!/usr/bin/env python3
 
 
 name = 'SimpleHTTPSServer'
@@ -8,30 +7,28 @@ tagline = 'A HTTP server with more S and logging.'
 
 
 
+
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import os
 import ssl
 
+
 class S(SimpleHTTPRequestHandler):
-    # Return a 200 for all requests
     def _set_response(self):
         self.send_response(200)
         self.send_header('Content-type', 'text/html')
         self.send_header('Access-Control-Allow-Origin', '*')
         self.end_headers()
 
-    # Handle GET requests
     def do_GET(self):
-        # If the file exists, serve it
         if ((self.path.split('?')[0] != '/logfile.txt') and os.path.isfile('.'+self.path.split('?')[0])):
             return SimpleHTTPRequestHandler.do_GET(self)
-        # Else, return 200 and log request to file
         else:
-            # Return 200
             self._set_response()
-            # Write to log
             log_file = open('logfile.txt', 'a')
             log_file.write(self.client_address[0] + ' - - [' + str(self.log_date_time_string()) + '] ' + str(self.path) + '\n')
+
+
 
 
 
@@ -57,3 +54,6 @@ if __name__ == '__main__':
         run(port=int(argv[1]))
     else:
         run()
+
+
+
